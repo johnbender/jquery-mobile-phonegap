@@ -2,23 +2,19 @@
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
 	id		= "com.phonegap.getting.started"
-	version 	= "1.0.0">
+	version 	= "1.5.0">
 
-	<name>PhoneGap: Getting Started</name>
+	<name>jQuery Mobile Phonegap Kitchen Sink</name>
 
 	<description>
-		A template for getting started with PhoneGap development and build.phonegap.com
+    A kitchen sink page for testing with phonegap on various platforms
 	</description>
 
-	<author href="http://alunny.github.com"
-		email="andrew.lunny@nitobi.com">
-		Andrew Lunny
+	<author href="http://github.com/johnbender"
+          email="john.m.bender@gmail.com">
+    John Bender
 	</author>
 
 	<icon src="icon.png" gap:role="default" />
-
-	<feature name="http://api.phonegap.com/1.0/geolocation"/>
-	<feature name="http://api.phonegap.com/1.0/network"/>
-
 	<preference name="orientation" value="portrait" />
 </widget>
