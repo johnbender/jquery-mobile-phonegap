@@ -21,4 +21,4 @@ echo "creating app tar.gz"
 tar --exclude="jquery-mobile" --exclude=".git*" --exclude="update.*" -czvf "update.tar.gz" .
 
 echo "pushing the updated app tar"
-curl -u nous.placidus@gmail.com:$PHONEGAP_PASS -X PUT -d 'data={"version":"0.1.0"}' https://build.phonegap.com/api/v1/apps/86563
+curl -u nous.placidus@gmail.com:$PHONEGAP_PASS -X PUT -d 'data={"version":"0.1.0"}' https://build.phonegap.com/api/v1/apps/$PHONEGAP_APP
