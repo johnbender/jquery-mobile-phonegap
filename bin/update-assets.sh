@@ -18,7 +18,7 @@ cp jquery-mobile/compiled/jquery.mobile.css assets/css/
 cp jquery-mobile/js/jquery.js assets/js/
 
 echo "creating app tar.gz"
-tar --exclude="jquery-mobile" --exclude=".git*" --exclude="update.*" -czvf "update.tar.gz" .
+tar --exclude="jquery-mobile" --exclude=".git*" --exclude="bin" --exclude="update.*" -czvf "update.tar.gz" .
 
 echo "pushing the updated app tar"
 curl -u $PHONEGAP_USER:$PHONEGAP_PASS -X PUT -d 'data={"version":"0.1.0"}' https://build.phonegap.com/api/v1/apps/$PHONEGAP_APP
