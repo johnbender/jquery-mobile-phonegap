@@ -4,10 +4,10 @@
 	id		= "com.phonegap.getting.started"
 	version 	= "0.1.0">
 
-	<name>jQuery Mobile Phonegap Kitchen Sink</name>
+	<name>jQuery Mobile Docs</name>
 
 	<description>
-    A kitchen sink page for testing with phonegap on various platforms
+		An app that redirects to jquerymobile.com/test/ for fat finger testing
 	</description>
 
 	<author href="http://github.com/johnbender"
