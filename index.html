@@ -19,11 +19,10 @@
     }
   </style>
   <input id="url" type="text" name="url" value="http://" />
-  <button>Set</button>
   <a id="go" href="">Go!</a>
   <script type="text/javascript">
-    $("button").click(function(){
-      $( "#go" ).attr( "href", $("#url").val() );
+    $("#go").click(function(){
+      $( this ).attr( "href", $("#url").val() );
     });
   </script>
 </body>
