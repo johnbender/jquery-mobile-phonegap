@@ -1,8 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="refresh" content="0; url='http://jquerymobile.com/test/"></meta>
+  <script type="text/javascript" src="http://jquerymobile.com/test/js/jquery.js"></script>
 </head>
 <body>
+  <style type="text/css" media="screen">
+    #url {
+      width: 90%;
+      font-size: 2em;
+    }
+
+    button {
+      font-size: 2em;
+    }
+
+    #go {
+      font-size: 2em;
+    }
+  </style>
+  <input id="url" type="text" name="url" value="http://" />
+  <button>Set</button>
+  <a id="go" href="">Go!</a>
+  <script type="text/javascript">
+    $("button").click(function(){
+      $( "#go" ).attr( "href", $("#url").val() );
+    });
+  </script>
 </body>
 </html>

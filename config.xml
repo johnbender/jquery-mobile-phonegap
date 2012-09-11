@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns		= "http://www.w3.org/ns/widgets"
-	xmlns:gap	= "http://phonegap.com/ns/1.0"
-	id		= "com.phonegap.getting.started"
-	version 	= "0.1.1">
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap	= "http://phonegap.com/ns/1.0"
+        id = "com.phonegap.getting.started"
+        version = "0.1.1">
 
 	<name>jQuery Mobile Docs</name>
 
@@ -15,6 +15,7 @@
     John Bender
 	</author>
 
+  <preference name="phonegap-version" value="1.6.0" />
+
 	<icon src="icon.png" gap:role="default" />
-	<preference name="orientation" value="default" />
 </widget>
